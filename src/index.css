@@ -22,6 +22,17 @@ a {
   padding: 20px;
 }
 
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
 .large-header {
   font-size: 105px;
   text-align: center;
