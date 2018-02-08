@@ -46,7 +46,7 @@ export default class Players extends Component {
             if (loading === true) return null
 
             const {
-              name, position, teamId, number, avatar, apg, ppg, rpg, spg
+              name, position, teamId, number, avatar, apg, ppg, rpg, spg,
             } = players.find((player) => slug(player.name) === match.params.playerId)
             return (
               <div className='panel'>
