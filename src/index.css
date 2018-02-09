@@ -33,6 +33,10 @@ a {
   transition: opacity 250ms ease-in;
 }
 
+.fade-exit {
+  display: none;
+}
+
 .large-header {
   font-size: 105px;
   text-align: center;
